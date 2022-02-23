@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    margin-bottom: 100px;
+}
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.top-image {
+    height: 100vh;
+}
+
+.top-text {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 64px;
+}
+
+.top-1 {
+    position: relative;
+    animation: top-1-reveal 2s ease-in-out;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@keyframes top-1-reveal {
+    0% {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
