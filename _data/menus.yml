@@ -1,0 +1,15 @@
+main:
+  - name: "About"
+    url: "/about/"
+    weight: 2
+  - name: "Fold"
+    url: "/fold/"
+    weight: 3
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "About"
+    url: "/about/"
+    weight: 2
