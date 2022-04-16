@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { ScrollContext } from "../utils/scroll-observer";
 
 const Masthead: React.FC = () => {
+    const [imageLoaded, setImageLoaded] = useState(false)
     const refContainer = useRef<HTMLDivElement>(null)
     const { scrollY } = useContext(ScrollContext)
 
@@ -12,6 +13,10 @@ const Masthead: React.FC = () => {
     if (elContainer) {
         progress = Math.min(1, scrollY / elContainer.clientHeight)
     }
+
+    const handleImageLoaded = useCallback(() => {
+        setImageLoaded(true)
+    }, [])
 
     return ( 
         <div ref={refContainer} className="min-h-screen flex flex-col items-center justify-center sticky top-0 -z-10" style={{
@@ -26,7 +31,7 @@ const Masthead: React.FC = () => {
                     <span>Links, the way nature intended.</span>
                 </h2>
             </div>
-            <div className="flex-grow-0 pb-20 md:pb-10 transition-all duration-1000">
+            <div className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000`}>
                 <Image src="/assets/angle-down-solid.png" width={188/3} height={188/3} alt="Scroll down" />
             </div>
         </div>
