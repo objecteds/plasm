@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
 						Carry your links anywhere just by using your memory, no effort required.
 					</span>
 					<span className={`${styles.skillText} inline-block`} style={{opacity: opacityForBlock(progress, 2)}}>
-						We&apos;ve helped connect the world together, assisting some of the most popular corporations (this is a lie), with over <strong>939 million</strong> links trimmed.
+						We&apos;ve helped connect the world together, assisting absolutely no one as of now, with over <strong>0 million</strong> links trimmed.
 					</span>
 				</div>
 			</div>
