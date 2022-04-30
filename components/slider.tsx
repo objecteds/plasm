@@ -1,8 +1,9 @@
-import React, { useCallback, useContext, useRef } from "react";
+import React, { ReactNode, useCallback, useContext, useRef } from "react";
 import { SizeContext } from "../utils/size-observer";
 import useAnimationFrame from "../utils/use-animation-frame";
 
 interface Props {
+    children: ReactNode
     initialOffsetX: number
     className: string
     contentWidth: number
@@ -44,6 +45,7 @@ const SliderContainer: React.FC<Props> = ({ children, initialOffsetX, className,
 }
 
 interface ItemProps {
+    children: ReactNode
     width: number
 }
 

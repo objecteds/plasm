@@ -52,7 +52,7 @@ const Logos: React.FC = () => (
             </SliderItem>
             <SliderItem width={150}>
                 <Image 
-                    src="/assets/trusted/days.png" 
+                    src="/assets/trusted/apple.png" 
                     width={150}
                     height={50}
                     alt="Reddit" 

@@ -1,7 +1,8 @@
-import React, { useRef, useContext } from 'react'
+import React, { useRef, useContext, ReactNode } from 'react'
 import { ScrollContext } from '../utils/scroll-observer'
 
 interface WrapperProps {
+    children: ReactNode,
     numOfPages: number,
 }
 

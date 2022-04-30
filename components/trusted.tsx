@@ -1,5 +1,6 @@
 import React from "react";
 import Logos from "./logos";
+import Testimonials from "./testimonials";
 
 const Trusted: React.FC = () => (
     <section className="bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32">
@@ -15,9 +16,7 @@ const Trusted: React.FC = () => (
                 <h3 className="text-3xl lg:text-4xl tracking-tight text-center px-10 !leading-[3.5rem]">We believe in speed, convenience, and dynamic performance tailored to your needs.</h3>
             </div>
         </div>
-        <div className="flex-1 bg-black">
-            Testimonials
-        </div>
+        <Testimonials />
     </section>
 )
 

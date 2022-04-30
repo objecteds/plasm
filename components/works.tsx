@@ -18,7 +18,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/white.png"
+                            src="/assets/works/mcdonalds.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />
@@ -37,7 +37,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/white.png"
+                            src="/assets/works/aperture.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />
@@ -51,9 +51,16 @@ const Works = () => (
             renderContent = {({progress}) => (
                 <WorkContainer>
                     <WorkLeft progress={progress}>
-                        <div>There are meant to be images in the</div>
-                        <div>white space but I couldn&apos;t find anything.</div>
+                        <div>Sorry for the images,</div>
+                        <div>they&apos;re the best ones I could find.</div>
                     </WorkLeft>
+                    <WorkRight progress={progress}>
+                        <Image 
+                            src="/assets/works/sorry.png"
+                            layout="fill"
+                            alt="Irrelevant image"
+                        />
+                    </WorkRight>
                 </WorkContainer>
             )}></Tile>
         </TileContent>
@@ -68,7 +75,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/white.png"
+                            src="/assets/works/nestle.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />
@@ -86,7 +93,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/white.png"
+                            src="/assets/works/burger.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />
@@ -104,7 +111,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/white.png"
+                            src="/assets/works/up.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />
@@ -122,7 +129,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/white.png"
+                            src="/assets/works/days.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />
