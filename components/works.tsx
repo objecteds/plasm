@@ -4,7 +4,7 @@ import { Tile, TileBackground, TileContent, TileWrapper } from './tile';
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from './work';
 
 const Works = () => (
-    <TileWrapper numOfPages={7}>
+    <TileWrapper numOfPages={5}>
         <TileBackground>
             <WorkBackground />
         </TileBackground>
@@ -51,27 +51,8 @@ const Works = () => (
             renderContent = {({progress}) => (
                 <WorkContainer>
                     <WorkLeft progress={progress}>
-                        <div>Sorry for the images,</div>
-                        <div>they&apos;re the best ones I could find.</div>
-                    </WorkLeft>
-                    <WorkRight progress={progress}>
-                        <Image 
-                            src="/assets/works/sorry.png"
-                            layout="fill"
-                            alt="Irrelevant image"
-                        />
-                    </WorkRight>
-                </WorkContainer>
-            )}></Tile>
-        </TileContent>
-        <TileContent>
-            <Tile
-            page = {3}
-            renderContent = {({progress}) => (
-                <WorkContainer>
-                    <WorkLeft progress={progress}>
-                        <div>This website is pretty cool.</div>
-                        <div>Don&apos;t you agree?</div>
+                        <div>Yeah, the images are irrelevant.</div>
+                        <div>They are placeholders.</div>
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
@@ -85,11 +66,11 @@ const Works = () => (
         </TileContent>
         <TileContent>
             <Tile
-            page = {4}
+            page = {3}
             renderContent = {({progress}) => (
                 <WorkContainer>
                     <WorkLeft progress={progress}>
-                        <div>Here's another one.</div>
+                        <div>But for now, have this.</div>
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
@@ -103,25 +84,7 @@ const Works = () => (
         </TileContent>
         <TileContent>
             <Tile
-            page = {5}
-            renderContent = {({progress}) => (
-                <WorkContainer>
-                    <WorkLeft progress={progress}>
-                        <div>Okay, I&apos;ll stop.</div>
-                    </WorkLeft>
-                    <WorkRight progress={progress}>
-                        <Image 
-                            src="/assets/works/up.png"
-                            layout="fill"
-                            alt="Irrelevant image"
-                        />
-                    </WorkRight>
-                </WorkContainer>
-            )}></Tile>
-        </TileContent>
-        <TileContent>
-            <Tile
-            page = {6}
+            page = {4}
             renderContent = {({progress}) => (
                 <WorkContainer>
                     <WorkLeft progress={progress}>
@@ -129,7 +92,7 @@ const Works = () => (
                     </WorkLeft>
                     <WorkRight progress={progress}>
                         <Image 
-                            src="/assets/works/days.png"
+                            src="/assets/works/up.png"
                             layout="fill"
                             alt="Irrelevant image"
                         />

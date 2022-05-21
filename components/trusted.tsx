@@ -6,7 +6,7 @@ const Trusted: React.FC = () => (
     <section className="bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32">
         <div className="flex-1"></div>
         <div className="flex flex-col justify-center items-center">
-            <h3 className="text-xl mb-10 font-bold text-center">
+            <h3 className="text-2xl mb-10 font-bold text-center">
                 <span className="whitespace-nowrap">trusted by no one</span>
             </h3>
             <Logos />

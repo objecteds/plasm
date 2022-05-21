@@ -9,8 +9,8 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/amazon.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="amazon" 
                     objectFit="contain"
                 />
             </SliderItem>
@@ -18,35 +18,17 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/among.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
-                    objectFit="contain"
-                />
-            </SliderItem>
-            <SliderItem width={150}>
-                <Image 
-                    src="/assets/trusted/only.png" 
-                    width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="among" 
                     objectFit="contain"
                 />
             </SliderItem>
             <SliderItem width={150}>
                 <Image 
                     src="/assets/trusted/google.png" 
-                    width={100}
-                    height={50}
-                    alt="Reddit" 
-                    objectFit="contain"
-                />
-            </SliderItem>
-            <SliderItem width={150}>
-                <Image 
-                    src="/assets/trusted/reddit.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="google" 
                     objectFit="contain"
                 />
             </SliderItem>
@@ -54,8 +36,35 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/apple.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="apple" 
+                    objectFit="contain"
+                />
+            </SliderItem>
+            <SliderItem width={150}>
+                <Image 
+                    src="/assets/trusted/ffv.png" 
+                    width={150}
+                    height={100}
+                    alt="ffv" 
+                    objectFit="contain"
+                />
+            </SliderItem>
+            <SliderItem width={150}>
+                <Image 
+                    src="/assets/trusted/pepsi.png" 
+                    width={150}
+                    height={100}
+                    alt="netflix" 
+                    objectFit="contain"
+                />
+            </SliderItem>
+            <SliderItem width={150}>
+                <Image 
+                    src="/assets/trusted/macbook.png" 
+                    width={150}
+                    height={100}
+                    alt="macintosh" 
                     objectFit="contain"
                 />
             </SliderItem>
@@ -65,8 +74,8 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/facebook.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="facebook" 
                     objectFit="contain"
                 />
             </SliderItem>
@@ -74,8 +83,8 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/ebay.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="ebay" 
                     objectFit="contain"
                 />
             </SliderItem>
@@ -83,26 +92,8 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/fedex.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
-                    objectFit="contain"
-                />
-            </SliderItem>
-            <SliderItem width={150}>
-                <Image 
-                    src="/assets/trusted/napsta.png" 
-                    width={100}
-                    height={50}
-                    alt="Reddit" 
-                    objectFit="contain"
-                />
-            </SliderItem>
-            <SliderItem width={150}>
-                <Image 
-                    src="/assets/trusted/shell.png" 
-                    width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="fedex" 
                     objectFit="contain"
                 />
             </SliderItem>
@@ -110,8 +101,35 @@ const Logos: React.FC = () => (
                 <Image 
                     src="/assets/trusted/spotify.png" 
                     width={150}
-                    height={50}
-                    alt="Reddit" 
+                    height={100}
+                    alt="spotify" 
+                    objectFit="contain"
+                />
+            </SliderItem>
+            <SliderItem width={150}>
+                <Image 
+                    src="/assets/trusted/duck.png" 
+                    width={150}
+                    height={100}
+                    alt="duckgogo" 
+                    objectFit="contain"
+                />
+            </SliderItem>
+            <SliderItem width={150}>
+                <Image 
+                    src="/assets/trusted/adios.png" 
+                    width={150}
+                    height={100}
+                    alt="adidas" 
+                    objectFit="contain"
+                />
+            </SliderItem>
+            <SliderItem width={150}>
+                <Image 
+                    src="/assets/trusted/visa.png" 
+                    width={150}
+                    height={100}
+                    alt="visa" 
                     objectFit="contain"
                 />
             </SliderItem>

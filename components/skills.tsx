@@ -13,7 +13,7 @@ const opacityForBlock = (sectionProgress: number, blockNo: number) => {
 const Skills: React.FC = () => {
 	const { scrollY } = useContext(ScrollContext)
 	const refContainer = useRef<HTMLDivElement>(null)
-	const numOfPages = 3
+	const numOfPages = 4
 	let progress = 0
 	const { current: elContainer } = refContainer
 	
@@ -34,8 +34,14 @@ const Skills: React.FC = () => {
 						Carry your links anywhere just by using your memory, no effort required.
 					</span>
 					<span className={`${styles.skillText} inline-block`} style={{opacity: opacityForBlock(progress, 2)}}>
-						We&apos;ve helped connect the world together, assisting absolutely no one as of now, with over <strong>0 million</strong> links trimmed.
+						Connecting the world together, 0 links at a time because this is just a fancy website.
 					</span>
+					<span className={`${styles.skillText} inline-block`} style={{opacity: opacityForBlock(progress, 3)}}>
+						Absolutely no functionality attached.
+					</span>
+					<br />
+					<br />
+					<br />
 				</div>
 			</div>
 		</div>
