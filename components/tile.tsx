@@ -45,7 +45,7 @@ export const TileWrapper: React.FC<WrapperProps> = ({children, numOfPages}) => {
 }
 
 
-export const TileBackground: React.FC = ({ children }) => {
+export const TileBackground: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
         <div className="absolute h-full w-full">
             {children}
@@ -53,7 +53,7 @@ export const TileBackground: React.FC = ({ children }) => {
     )
 }
 
-export const TileContent: React.FC = ({ children }) => {
+export const TileContent: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
         <div className="sticky top-0 h-screen overflow-hidden">
             {children}

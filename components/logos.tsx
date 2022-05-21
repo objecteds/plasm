@@ -4,7 +4,7 @@ import SliderContainer, { SliderItem } from './slider';
 
 const Logos: React.FC = () => (
     <>
-        <SliderContainer className="" contentwidth={1290} initialOffsetX={0}>
+        <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
             <SliderItem width={150}>
                 <Image 
                     src="/assets/trusted/amazon.png" 
@@ -60,7 +60,7 @@ const Logos: React.FC = () => (
                 />
             </SliderItem>
         </SliderContainer>
-        <SliderContainer className="" contentwidth={1290} initialOffsetX={0}>
+        <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
             <SliderItem width={150}>
                 <Image 
                     src="/assets/trusted/facebook.png" 
