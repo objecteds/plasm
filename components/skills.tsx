@@ -37,7 +37,7 @@ const Skills: React.FC = () => {
 						Connecting the world together, 0 links at a time because this is just a fancy website.
 					</span>
 					<span className={`${styles.skillText} inline-block`} style={{opacity: opacityForBlock(progress, 3)}}>
-						Absolutely no functionality attached.
+						I forgot to put in the functionality.
 					</span>
 					<br />
 					<br />
