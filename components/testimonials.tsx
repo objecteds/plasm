@@ -42,7 +42,7 @@ const Testimonials: React.FC = () => (
         </CarouselItem>
         <CarouselItem index={7}>
             <Review by="Donkerpie (Game Critic)">
-                This website encourages racism!<br />
+                This website encourages homophobia!<br />
                 I was just minding my business looking at the very funny logos and then two pigeons ganged up on me in real life and sent me to the abyss
             </Review>
         </CarouselItem>
